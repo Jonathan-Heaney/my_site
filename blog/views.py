@@ -5,16 +5,13 @@ from django.urls import reverse
 # Create your views here.
 
 
-def index(request):
-    response_data = "Index"
-    return HttpResponse(response_data)
+def starting_page(request):
+    pass
 
 
-def all_posts(request):
-    response_data = "All Posts"
-    return HttpResponse(response_data)
+def posts(request):
+    pass
 
 
-def show_post(request, post):
-    response_data = f"Post Number {post}"
-    return HttpResponse(response_data)
+def post_detail(request, post):
+    pass
